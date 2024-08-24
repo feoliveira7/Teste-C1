@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(236, 236, 236);
+}
+
+.centralDiv{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo{
+    font-size: 30px;
+    font-family: Poppins;
+    color: rgb(29, 29, 29);
+}
+
+.buttonQR1{
+    width: 120px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    font-family: Poppins;
+    font-weight: 580;
+    font-size: 23px;
+    color: rgb(29, 29, 29);
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(27, 27, 27, 0.144);
+    opacity: 65%;
+    border-bottom: 3.5px solid rgb(27, 27, 27);
+}
+
+.buttonQR2{
+    margin-left: 8px;
+    width: 120px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    font-family: Poppins;
+    font-weight: 580;
+    font-size: 23px;
+    color: rgb(29, 29, 29);
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(27, 27, 27, 0.144);
+    cursor: pointer;
+   
+    
+}
+
+.fundoImageQR{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 470px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(27, 27, 27, 0.144);
+    
+}
+
+.qrcode1{
+    width: 290px;
+    height: 290px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(27, 27, 27, 0.144);
+    
+}
